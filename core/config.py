@@ -10,7 +10,7 @@ DB_NAME = os.environ.get("DB_NAME")
 DB_USER = os.environ.get("DB_USER")
 DB_PASS = os.environ.get("DB_PASS")
 
-FULL_DB_URL = 'postgresql+asyncpg://postgres:postgres@127.0.0.1:5432/%postgres'
+FULL_DB_URL = 'postgresql+asyncpg://postgres:1@192.168.109.145:5432/to_do_list'
 
-APP_HOST = '127.0.0.1'
-APP_PORT = 3228
+APP_HOST = '0.0.0.0'
+APP_PORT = 8200
