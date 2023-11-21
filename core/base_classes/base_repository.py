@@ -22,7 +22,6 @@ class BaseRepository:
     async def create(self, request):
         stmt = self.model(**request.dict())
         self.session.add(stmt)
-        # await self.session.refresh(stmt)
         return stmt
 
     async def update(self, request, item_id):
