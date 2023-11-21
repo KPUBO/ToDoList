@@ -1,8 +1,8 @@
-"""add date to plan
+"""add plan features
 
-Revision ID: 23627ae07048
+Revision ID: 94fb0ab7ddef
 Revises: 6dddd54ee317
-Create Date: 2023-11-21 10:37:10.478543
+Create Date: 2023-11-21 15:42:44.677775
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 from sqlalchemy.dialects import postgresql
 
 # revision identifiers, used by Alembic.
-revision: str = '23627ae07048'
+revision: str = '94fb0ab7ddef'
 down_revision: Union[str, None] = '6dddd54ee317'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
